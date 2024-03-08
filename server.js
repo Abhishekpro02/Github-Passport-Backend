@@ -20,7 +20,7 @@ const __dirname = path.resolve();
 // cors policy for development
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://github-passport-backend.vercel.app",
     credentials: true,
   })
 );
